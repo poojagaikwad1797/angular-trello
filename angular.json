@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "trello-clone"
+    }
+  },
+  "defaultProject": "trello-clone",
+  "cli": {
+    "analytics": "4ee34f3a-15ab-4002-aaaf-ded91a23fa4a"
+  }
 }
