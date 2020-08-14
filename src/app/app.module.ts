@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { CardComponent } from './card/card.component';
 import { ListComponent } from './list/list.component';
 import { BoardComponent } from './board/board.component';
+import { AuthComponent } from './auth/auth.component';
+import { AdminComponent } from './admin/admin.component';
 
 
 @NgModule({
@@ -13,7 +15,9 @@ import { BoardComponent } from './board/board.component';
     AppComponent,
     CardComponent,
     ListComponent,
-    BoardComponent
+    BoardComponent,
+    AuthComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
