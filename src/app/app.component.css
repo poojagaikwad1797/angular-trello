@@ -3,8 +3,16 @@
 body { 
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #0079bf;
 }
-
+h1{
+  color: white;
+  font-size: 50px;
+}
+p{
+  color: white;
+  font-size: 30px;
+}
 .header {
   overflow: hidden;
   background-color: #0079bf;
@@ -18,7 +26,7 @@ body {
   padding: 12px;
   text-decoration: none;
   font-size: 18px; 
-  line-height: 25px;
+  line-height: 10px;
   border-radius: 4px;
 }
 
@@ -39,6 +47,46 @@ body {
 
 .header-right {
   float: right;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: relative;
+  z-index: 1;
+  overflow-x: hidden;
+  padding-top: 20px;
+  
+}
+
+.left {
+ float: left;
+  padding: 70px 80px 0px 100px;
+}
+
+.right {
+  float: right;
+  padding-right: 40px;
+}
+input{
+  width: 376px;
+    border-radius: .3rem;
+    line-height: 43px;
+    padding: 4px;
+    padding-left: 16px;
+    border-color: white;
+    border-style: solid;
+}
+button{
+border-color: rgb(57, 226, 57);
+border-radius: .3rem;
+background-color: green;
+line-height: 43px;
+width: 200px;
+color: white;
+}
+.input{
+  padding-left: 100px;
 }
 
 @media screen and (max-width: 500px) {

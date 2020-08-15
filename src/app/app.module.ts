@@ -7,9 +7,6 @@ import { AppComponent } from './app.component';
 import { CardComponent } from './card/card.component';
 import { ListComponent } from './list/list.component';
 import { BoardComponent } from './board/board.component';
-import { AuthComponent } from './auth/auth.component';
-import { AdminComponent } from './admin/admin.component';
-import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -17,10 +14,7 @@ import { LoginComponent } from './login/login.component';
     AppComponent,
     CardComponent,
     ListComponent,
-    BoardComponent,
-    AuthComponent,
-    AdminComponent,
-    LoginComponent
+    BoardComponent
   ],
   imports: [
     BrowserModule,
