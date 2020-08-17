@@ -4,30 +4,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-
- <div class="header">
-     <a class="logo"><img src="../assets/logo.png"></a>
+<div class="header">
+     <a class="logo" routerLink="/home" [routerLinkActive]="['is-active']">
+      <img src="../assets/logo.png">
+     </a>
      <div class="header-right">
-       <a href="#">Log In</a>
-       <a class="active" href="#">Sign Up</a>
+       <a routerLink="/login">Log In</a>
+       <a class="active" routerLink="/signup">Sign Up</a>
      </div>
-  </div>
-  <div>
-  <div class="split left">
-    <h1>Trello lets you work more collaboratively and get more done.</h1>
-      <p>Trello’s boards, lists, and cards enable you to organize and 
-      prioritize your projects in a fun, flexible, and rewarding way.
-    </p>
-    </div>
-   <div class="split right">
-    <img class="right" src="../assets/hero-a.svg">
-    </div>
-    <div class="input">
-      <input type="text"> <button>Sign Up - It's Free!</button>
-    </div>
+</div>
+<div>
+  <router-outlet></router-outlet>
 </div>
 </body>
 </html>
+
+
 
 
 
